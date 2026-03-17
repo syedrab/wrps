@@ -10,6 +10,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import {
   LayoutDashboard,
   FileText,
+  Inbox,
   Users,
   Palette,
   Mail,
@@ -21,6 +22,7 @@ import { useState } from "react";
 
 const sidebarLinks = [
   { href: "/admin/dashboard", label: "Analytics", icon: LayoutDashboard },
+  { href: "/admin/reports", label: "Reports", icon: Inbox },
   { href: "/admin/report-types", label: "Report Types", icon: FileText },
   { href: "/admin/users", label: "Users & Roles", icon: Users },
   { href: "/admin/branding", label: "Branding", icon: Palette },
